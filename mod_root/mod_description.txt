@@ -1,0 +1,17 @@
+[orange]Dragster engine
+[normal]
+Standalone multi-truck engine-power mod.
+
+Includes:
+- 1 custom Dragster engine accessory for each supported truck family
+- stock ETS2 sound setup for each truck
+
+Does not include:
+- custom transmission changes
+- tire grip edits
+- FMOD sound-bank overrides
+
+Install:
+- Place dragster_engine.scs in Documents/Euro Truck Simulator 2/mod
+- Enable it in Mod Manager
+- Fit the Dragster engine in the upgrade shop on a supported truck

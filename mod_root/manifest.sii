@@ -1,0 +1,12 @@
+SiiNunit
+{
+mod_package : .package_name
+{
+	package_version: "1.0"
+	display_name: "Dragster engine"
+	author: "SSS"
+	category[]: "truck"
+	category[]: "physics"
+	description_file: "mod_description.txt"
+}
+}

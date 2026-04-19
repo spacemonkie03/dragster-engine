@@ -1,0 +1,59 @@
+SiiNunit
+{
+accessory_engine_data : dragster_engine.scania.s_2016.engine
+{
+	name: "Dragster engine"
+	price: 50000
+	unlock: 0
+	info[]: "8@@dg@@600 @@hp@@ (6@@dg@@414 @@kw@@)"
+	info[]: "10@@dg@@000 @@lb_ft@@ (13@@dg@@558 @@nm@@)"
+	info[]: "2@@dg@@650-5@@dg@@500 @@rpm@@"
+	icon: "engine_scania_dc16"
+	part_type: factory
+
+	torque: 13558
+
+	volume: 16.4
+	torque_curve[]: (300, 0)
+	torque_curve[]: (600, 0.08)
+	torque_curve[]: (900, 0.10)
+	torque_curve[]: (1200, 0.12)
+	torque_curve[]: (1500, 0.16)
+	torque_curve[]: (1800, 0.24)
+	torque_curve[]: (2100, 0.34)
+	torque_curve[]: (2300, 0.48)
+	torque_curve[]: (2450, 0.68)
+	torque_curve[]: (2550, 0.86)
+	torque_curve[]: (2650, 1)
+	torque_curve[]: (3000, 1)
+	torque_curve[]: (4000, 0.97)
+	torque_curve[]: (5000, 0.92)
+	torque_curve[]: (6000, 0.80)
+	torque_curve[]: (7000, 0.62)
+	torque_curve[]: (7500, 0.55)
+	torque_curve[]: (8000, 0)
+
+	rpm_idle: 500
+	rpm_limit: 7500
+	rpm_limit_neutral: 7500
+	rpm_range_low_gear: (1700, 4800)
+	rpm_range_high_gear: (2400, 5200)
+	rpm_range_power: (3000, 7200)
+	rpm_range_engine_brake: (2200, 7500)
+
+	engine_brake: 2.4
+	engine_brake_downshift: 1
+	engine_brake_positions: 3
+
+	adblue_consumption: 0.06
+
+	no_adblue_power_limit: 0.5
+
+
+@include "sound_590s.sui"
+
+
+	overrides[]: "/def/vehicle/truck/scania.s_2016/badge/s770.sii"
+	overrides[]: "/def/vehicle/truck/scania.s_2016/accessory/c_badge/empty.sii"
+}
+}
