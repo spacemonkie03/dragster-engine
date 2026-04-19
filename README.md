@@ -70,10 +70,3 @@ Each workflow run validates the mod files, builds the `.scs`, and uploads the pa
 ## Open source
 
 This project is released under the MIT License. See [LICENSE](LICENSE).
-
-## Community post drafts
-
-Ready-to-post drafts live in:
-
-- [posts/reddit.md](posts/reddit.md)
-- [posts/scs_forum.md](posts/scs_forum.md)
